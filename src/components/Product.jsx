@@ -1,6 +1,4 @@
-export default Product;
-
-function Product() {
+export default function Product() {
   return (
     <div>
       <h2>Tacos</h2>
