@@ -1,4 +1,6 @@
-const Product = () => {
+export default Product;
+
+function Product() {
   return (
     <div>
       <h2>Tacos</h2>
@@ -10,6 +12,4 @@ const Product = () => {
       <p>Price: 999 credits</p>
     </div>
   );
-};
-
-export default Product;
+}
