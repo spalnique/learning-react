@@ -4,7 +4,7 @@ import { Mailbox } from './Mailbox';
 import { BookList } from './Booklist';
 import { favouriteBooks } from './Books';
 
-export default function App() {
+export function App() {
   return (
     <div>
       <h1>Best selling</h1>
